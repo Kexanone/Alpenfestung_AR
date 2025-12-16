@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{533FAF38C9ACDBDB}Terrains/Common/Water/Lake/AF_BluelLakeSurface_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

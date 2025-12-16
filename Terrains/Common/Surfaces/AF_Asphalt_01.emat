@@ -1,0 +1,4 @@
+TerrainMaterial : "{37DC7E40C529A95A}Terrains/Common/Surfaces/Asphalt_01.emat" {
+ DetailMaxDistance 300
+ DetailBlendDistance 500
+}

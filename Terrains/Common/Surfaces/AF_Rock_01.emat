@@ -1,0 +1,4 @@
+TerrainMaterial : "{F606AF5AE35A6C4C}Terrains/Common/Surfaces/Rock_01.emat" {
+ SatMapBlend 1
+ SatMapBrightness 0.4
+}

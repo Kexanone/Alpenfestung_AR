@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D1D84E98B50F7D14}Terrains/Common/Water/Lake/AF_GlacierLakeSurface.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
