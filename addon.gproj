@@ -1,0 +1,23 @@
+GameProject {
+ ID "Alpenfestung2"
+ GUID "5F34E8E4880EE996"
+ TITLE "Alpenfestung"
+ Dependencies {
+  "58D0FB3206B6F859" "5DE612963E4B005A" "5D84C738432BFE6A"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+   PlatformHardware PS5
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
