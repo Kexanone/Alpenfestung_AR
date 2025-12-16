@@ -1,0 +1,4 @@
+DecalEntity : "{7F5B851062D38849}Prefabs/Decals/Markings/Decal_CrossWalk_01.et" {
+ ID "525E7937F36C907E"
+ Mat "{87FA48B34A509728}Assets/Decals/Markings/CrossWalks/Data/AF_CrossWalk_01.emat"
+}

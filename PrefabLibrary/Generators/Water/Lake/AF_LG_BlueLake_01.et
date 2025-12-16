@@ -1,0 +1,5 @@
+LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
+ ID "585CE012C556087D"
+ coords 2216.057 1084.255 3966.374
+ m_MaterialName "{533FAF38C9ACDBDB}Terrains/Common/Water/Lake/AF_BluelLakeSurface_01.emat"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{38976D405AFC00E8}worlds/Alpenfestung/Navmeshes/GM_Alpenfestung_BTRlike.nmn"
+ Configurations {
+  NavMeshResourceClass PC {
+  }
+  NavMeshResourceClass XBOX_ONE : PC {
+  }
+  NavMeshResourceClass XBOX_SERIES : PC {
+  }
+  NavMeshResourceClass PS4 : PC {
+  }
+  NavMeshResourceClass PS5 : PC {
+  }
+  NavMeshResourceClass HEADLESS : PC {
+  }
+ }
+}

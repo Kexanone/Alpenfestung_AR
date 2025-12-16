@@ -1,0 +1,16 @@
+$grp WorldOccluderEntity {
+ {
+  coords 2711.49 835.362 4087.45
+  angleY 41.064
+  Box BoundingVolume "{604E08E718052A75}" {
+   Size 249.689 467.427 1491.723
+  }
+ }
+ {
+  coords 615.148 938.298 2828.43
+  angleY 59.548
+  Box BoundingVolume "{604E08E718052A75}" {
+   Size 219.842 648.337 2132.212
+  }
+ }
+}

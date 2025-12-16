@@ -1,0 +1,99 @@
+MetaFileClass {
+ Name "{ADB9981FF3ABF5E9}Assets/Structures/Infrastructure/Rail/RailwayTurnable/RailwayTurnableBridge.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{606E17758BDF4276}" {
+     SourceMaterial "handle"
+     AssignedMaterial "{38E53909F9DA124D}Assets/Structures/Infrastructure/Rail/Data/ties.emat"
+    }
+    MaterialAssignClass "{606E17758BDF4380}" {
+     SourceMaterial "bridge"
+     AssignedMaterial "{52B611F8D31F3C8F}Assets/Structures/Infrastructure/Rail/Data/bridge_struts.emat"
+    }
+    MaterialAssignClass "{606E17758BDF438C}" {
+     SourceMaterial "bridge_deck"
+     AssignedMaterial "{9B43A8BE432F738A}Assets/Structures/Infrastructure/Rail/Data/bridge_deck.emat"
+    }
+    MaterialAssignClass "{606E17758BDF438A}" {
+     SourceMaterial "rails"
+     AssignedMaterial "{A9255B742DAD89F7}Assets/Structures/Infrastructure/Rail/Data/rails.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Bridge {
+    }
+    MeshParam Rails {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Railings01 {
+     LayerPreset "BuildingView"
+     SurfaceProperties {
+      "{469B8DA92D8109EC}Common/Materials/Game/Metal/metal_10mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_Railings02 {
+     LayerPreset "BuildingView"
+     SurfaceProperties {
+      "{469B8DA92D8109EC}Common/Materials/Game/Metal/metal_10mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Bridge {
+     LayerPreset "BuildingView"
+     SurfaceProperties {
+      "{469B8DA92D8109EC}Common/Materials/Game/Metal/metal_10mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Handle01 {
+     LayerPreset "BuildingView"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Handle02 {
+     LayerPreset "BuildingView"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Bridge_Fire {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{606E17758B49732F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{606E17758B497051}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{606E17758B4971E4}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{606E17758B497128}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{606E17758B497176}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

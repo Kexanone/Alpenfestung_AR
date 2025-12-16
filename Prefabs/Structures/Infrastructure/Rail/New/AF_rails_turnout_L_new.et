@@ -1,0 +1,10 @@
+GenericEntity : "{68610D36FF1E1612}Prefabs/Structures/Infrastructure/Rail/New/rails_25_new.et" {
+ ID "5E10F32677BF2BC2"
+ coords -4.56 3.819 0
+ {
+  GenericEntity : "{2C9CC27684410631}Prefabs/Structures/Infrastructure/Rail/New/rails_v_LB_RE_new.et" {
+   ID "5F3B301A1C7EB949"
+   coords 0 0 9.27
+  }
+ }
+}

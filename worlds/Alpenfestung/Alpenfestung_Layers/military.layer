@@ -1,0 +1,364 @@
+$grp GenericEntity {
+ ArtilleryBunker_1 {
+  coords 4442.36 1199.52 4806.765
+ }
+ ArtilleryBunker_2 {
+  coords 2028.777 976.869 4534.81
+ }
+ Barracks_1 {
+  coords 5022.814 1060.647 4315.194
+ }
+ InfantryBunker_1 {
+  coords 5297.572 1230 4280.913
+ }
+ Barracks_2 {
+  coords 4788.339 1357.498 3658.497
+ }
+ ObservationPost_1 {
+  coords 5219.914 1405.598 3385.463
+ }
+ Barracks_3 {
+  coords 4558.66 1199.463 4776.434
+ }
+ InfantryBunker_2 {
+  coords 5135.104 1198.582 4496.304
+ }
+ ObservationPost_2 {
+  coords 4501.271 1249.304 4907.839
+ }
+ MGBunker_1 {
+  coords 4596.826 1210.418 4792.576
+ }
+ ArtilleryBunker_3 {
+  coords 7926.429 978.221 5564.641
+ }
+ InfantryBunker_3 {
+  coords 2074.641 1146.309 3853.38
+ }
+}
+SplineShapeEntity {
+ coords 452.203 664.726 170.454
+ Points {
+  ShapePoint "{60642CEB1F350407}" {
+   Position -12.303 -0.007 -0.742
+  }
+  ShapePoint "{60642CEB1F3517BE}" {
+   Position 812.329 3.828 619.508
+  }
+ }
+ {
+  RoadGeneratorEntity : "{97AE0665F9C51CB9}PrefabLibrary/Generators/Roads/Concrete/RG_Runway_20m.et" {
+   coords 0 0 0
+   {
+    RoadEntity {
+     ID "54C4E85735D57C97"
+     SplinePoints {
+      ShapePoint "{60642CEB39198CC7}" {
+       Position -12.303 -0.007 -0.742
+      }
+      ShapePoint "{60642CEB39198DC2}" {
+       Position 812.329 3.828 619.508
+      }
+     }
+     IsClosedSpline 0
+     Width 20
+    }
+   }
+  }
+ }
+}
+$grp Turret {
+ {
+  components {
+   SCR_EditableVehicleComponent "{6057181E6F1E85CA}" {
+    m_EntityType VEHICLE
+    m_bAutoRegister ALWAYS
+   }
+   TurretControllerComponent "{51ACD09C61C183E4}" {
+    LimitsVert -30 66
+   }
+   WeaponSlotComponent "{5C8E982104284E92}" {
+    Enabled 0
+   }
+   WeaponSlotComponent "{5CE63AF8CC840DCE}" {
+    Enabled 0
+   }
+   WeaponSlotComponent "{5E1115FC7EA8AAEE}" {
+    Enabled 0
+   }
+  }
+  coords 4443.582 1202.909 4815.57
+  angleY -160.261
+ }
+ {
+  components {
+   SCR_EditableVehicleComponent "{6057181E6F1E85CA}" {
+    m_EntityType VEHICLE
+    m_bAutoRegister ALWAYS
+   }
+   TurretControllerComponent "{51ACD09C61C183E4}" {
+    LimitsVert -30 66
+   }
+   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+    Enabled 0
+   }
+   WeaponSlotComponent "{5C829B12B0DE0800}" {
+    Enabled 0
+   }
+   WeaponSlotComponent "{5C8E982104284E92}" {
+    Enabled 0
+   }
+   WeaponSlotComponent "{5CE63AF8CC840DCE}" {
+    Enabled 0
+   }
+   WeaponSlotComponent "{5E1115FC7EA8AAEE}" {
+    Enabled 0
+   }
+  }
+  coords 2101.521 968.16 4550.261
+  angleY 132.465
+ }
+ {
+  components {
+   SCR_EditableVehicleComponent "{6057181E0CBC227F}" {
+    m_EntityType VEHICLE
+    m_bAutoRegister ALWAYS
+   }
+   TurretControllerComponent "{51ACD09C61C183E4}" {
+    LimitsVert -30 70
+   }
+  }
+  coords 4447.283 1200.133 4805.65
+  angleY -154.887
+ }
+ {
+  components {
+   SCR_EditableVehicleComponent "{6057181E0CBC227F}" {
+    m_EntityType VEHICLE
+    m_bAutoRegister ALWAYS
+   }
+   TurretControllerComponent "{51ACD09C61C183E4}" {
+    LimitsVert -30 70
+   }
+  }
+  coords 2041.293 969.71 4538.12
+  angleY 152.619
+ }
+ {
+  components {
+   SCR_EditableVehicleComponent "{6057181E0CBC227F}" {
+    m_EntityType VEHICLE
+    m_bAutoRegister ALWAYS
+   }
+   TurretControllerComponent "{51ACD09C61C183E4}" {
+    LimitsVert -30 70
+   }
+  }
+  coords 2916.083 1207.442 4277.146
+  angleY 152.619
+ }
+ {
+  components {
+   SCR_EditableVehicleComponent "{6057181E0CBC227F}" {
+    m_EntityType VEHICLE
+    m_bAutoRegister ALWAYS
+   }
+   TurretControllerComponent "{51ACD09C61C183E4}" {
+    LimitsVert -30 70
+   }
+  }
+  coords 1961.133 974.158 4721.632
+  angleY 6.171
+ }
+}
+SCR_DestructibleBuildingEntity : "{3D72037A4F2BD6FB}Prefabs/Structures/Houses/Military/Barracks/Barracks_S.et" {
+ coords 5007.468 0 4336.014
+ angleY -110.168
+}
+StaticModelEntity : "{410BC3D746AB53AE}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_13x18.et" {
+ coords 2549.49 1061.415 3126.998
+ angleY -12.263
+ scale 0.5
+}
+SCR_DestructibleBuildingEntity : "{51F233A0BA73532A}Prefabs/Structures/Industrial/Houses/Office_E_01/Office_E_01.et" {
+ coords 4549.191 0.153 4770.748
+ angleY 53.319
+ {
+  GenericEntity {
+   ID "56E4EDAF81F3384B"
+   coords 0 -0.011 0
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{5378B50CC2AC5F2A}Prefabs/Structures/Cultural/Chapels/Chapel_01/Chapel_01_white.et" {
+ coords 2443.709 1.657 3967.38
+ angleY 59.879
+}
+SCR_DestructibleBuildingEntity : "{7F0E9789EB7F1BCF}Prefabs/Structures/Military/Bunkers/AmmoDump_E_01/AmmoDump_E_01_cover.et" {
+ coords 2439.312 1092.604 3255.195
+ angleY 127.986
+ scale 1.5
+}
+SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02.et" {
+ coords 4571.69 -0.058 4793.759
+ angleY -127.717
+}
+SCR_DestructibleBuildingEntity : "{8A8A7A558772D718}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_small.et" {
+ coords 2455.532 1091.881 3256.343
+ angleY -52.694
+}
+GenericEntity Military2 : "{BC0FB2492AD81F0D}Prefabs/World/Locations/Arland/Urban/Arland_Military_01.et" {
+ coords 2015.838 1004.581 4567.442
+}
+SCR_DestructibleBuildingEntity : "{BE248D0B31D3B097}Prefabs/Structures/Military/Bunkers/AmmoDump_E_02/AmmoDump_E_02.et" {
+ coords 2413.773 1094.511 3239.237
+ angleY -40.178
+}
+$grp SCR_DestructibleBuildingEntity : "{C526728F8920399A}Prefabs/Structures/Military/Bunkers/AircraftShelter_E_01/AircraftShelter_E_01_camo_v2.et" {
+ {
+  coords 1315.168 -0.049 748.261
+  angleY -54.977
+ }
+ {
+  coords 1265.553 0.103 704.591
+  angleY -34.484
+ }
+ {
+  coords 1211.081 0.071 667.231
+  angleY -34.484
+ }
+ {
+  coords 1143.546 0.102 626.044
+  angleY -34.484
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{E6F7004E73A66F52}Prefabs/Structures/Houses/Military/Barracks/Barrack_Line.et" {
+ {
+  coords 5015.273 0 4312.046
+  angleY -109
+ }
+ {
+  coords 4621.965 -0.001 4760.289
+  angleY -173.785
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{EE5219B38424AB12}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_3fp.et" {
+ {
+  coords 2700.605 0.105 3844.481
+  angleY 26.361
+  {
+   SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+    coords 4.243 1.76 -2.222
+    angleY 41.06
+    {
+     SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+      coords 7.045 0 0
+      {
+       SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+        coords 3.908 0 -0.047
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2391.352 0.386 3289.639
+  angleY 96.229
+  {
+   SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+    coords 4.26 0.907 -2.368
+    angleY -134.317
+    {
+     $grp SCR_DestructibleEntity : "{A5C7908C71CFD97C}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_2m.et" {
+      {
+       coords -5.627 0 5.271
+       angleY 90
+      }
+      {
+       coords 6.004 0 5.016
+       angleY 90
+      }
+     }
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{EE5219B38424AB12}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_3fp.et" {
+    coords 6.296 0 -6.629
+    angleY 95
+   }
+  }
+ }
+ {
+  coords 2328.425 0.891 3398.613
+  angleY -5.398
+  {
+   SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
+    coords 4.26 0.907 -2.368
+    angleY -134.317
+    {
+     $grp SCR_DestructibleEntity : "{A5C7908C71CFD97C}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_2m.et" {
+      {
+       coords -5.627 0 5.271
+       angleY 90
+      }
+      {
+       coords 6.004 0 5.016
+       angleY 90
+      }
+     }
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{EE5219B38424AB12}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_3fp.et" {
+    coords 6.296 0 -6.629
+    angleY 95
+   }
+  }
+ }
+}
+$grp StaticModelEntity : "{F8E70CBC00C9E30E}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_8x5.et" {
+ {
+  coords 2607.546 1100.641 3604.669
+  angleY 158.681
+  scale 0.5
+ }
+ {
+  coords 2644.558 1083.527 3895.411
+  angleY 55.863
+  scale 0.5
+ }
+ {
+  coords 2536.553 1103.86 3299.075
+  angleY -80.63
+ }
+ {
+  coords 2294.568 1145.918 3449.904
+  angleY -150.045
+  scale 0.5
+ }
+ {
+  coords 2316.152 1146.181 3360.528
+  angleY -7.966
+  scale 0.5
+ }
+ {
+  coords 2606.625 1100.67 3597.722
+  angleY 36.601
+  scale 0.5
+ }
+ {
+  coords 2432.933 1077.894 3825.309
+  angleY 90.666
+  scale 0.5
+ }
+ {
+  coords 2437.905 1077.874 3822.209
+  angleY -28.302
+  scale 0.5
+ }
+ {
+  coords 2438.198 1077.922 3828.086
+  angleY -147.025
+  scale 0.5
+ }
+}

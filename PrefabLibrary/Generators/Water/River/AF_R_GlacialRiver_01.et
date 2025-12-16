@@ -1,0 +1,6 @@
+RiverEntity : "{DBFC6B2C12D5ED5A}PrefabLibrary/Generators/Water/River/R_RiverMedium_01.et" {
+ ID "585CE010C8CF2CF1"
+ coords 3726.956 885.287 4294.288
+ Material "{678447F216E28118}Terrains/Common/Water/River/AF_GlacialRiverSurface.emat"
+ GUID "60642CC5CD12B04C"
+}

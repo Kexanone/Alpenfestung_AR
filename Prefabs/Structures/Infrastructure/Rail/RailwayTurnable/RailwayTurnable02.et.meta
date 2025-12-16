@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CA793BA74DDA7C3A}Prefabs/Structures/Infrastructure/Rail/RailwayTurnable/RailwayTurnable02.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

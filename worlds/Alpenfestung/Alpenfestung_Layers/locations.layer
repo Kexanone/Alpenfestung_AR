@@ -1,0 +1,585 @@
+$grp GenericEntity : "{29D1F359C80F7873}Prefabs/World/Locations/Eden/Levie.et" {
+ C_GlacierHamlet {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Glacier Hamlet"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Glacier Hamlet"
+   }
+  }
+  coords 3324.349 875.062 3969.368
+ }
+ C_RiverAlp {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "River Alp"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "River Alp"
+    MainType "Name Town"
+   }
+  }
+  coords 8707.619 767.629 5952.118
+ }
+ C_ForestTown {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Forest Town"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Forest Town"
+    MainType "Name Town"
+   }
+  }
+  coords 2945.382 680.178 2348.807
+ }
+ C_FirTown {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Fir Town"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Fir Town"
+    MainType "Name Town"
+   }
+  }
+  coords 563.092 519.051 9144.812
+ }
+}
+$grp GenericEntity : "{409D0CFE91116A83}Prefabs/World/Locations/Eden/Lakeside_Hotel.et" {
+ C_DeepCreekHotel {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Deep Creek Hotel"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Deep Creek Hotel"
+   }
+  }
+  coords 7107.218 1054.071 5721.125
+ }
+ C_PanoramaHotel {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Panorama Hotel"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Panorama Hotel"
+   }
+  }
+  coords 4352.554 1130.835 4767.491
+ }
+}
+GenericEntity G_Quarry : "{485F978E315C6097}Prefabs/World/Locations/Eden/Urban/Moutains_East_quarry_01.et" {
+ coords 3241.238 700.405 2368.042
+}
+DecalEntity : "{4AD6EB80A8B1FA3A}Prefabs/Decals/Dirt/Decal_Dirt_Patch_03.et" {
+ coords 3243.26 -0.103 2458.037
+ angleX -90
+ angleY -180
+ angleZ -180
+ scale 10
+}
+$grp GenericEntity : "{5876B4D0E83D7F2C}Prefabs/World/Locations/Eden/Aquatic/Lakeside_Hotel_Lake_01.et" {
+ P_IceSea {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Ice Sea"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Ice Sea"
+   }
+  }
+  coords 4729.669 1436.714 7429.174
+ }
+ P_LakeOfTheDead {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Lake of the Dead"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Lake of the Dead"
+   }
+  }
+  coords 2548.088 1074.077 3860.314
+ }
+ P_GrimLake {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Grim Lake"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Grim Lake"
+   }
+  }
+  coords 1738.252 950 4416.117
+ }
+ P_LowerLake {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Lower Lake"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Lower Lake"
+   }
+  }
+  coords 2026.438 884.402 5270.005
+ }
+ P_ScreeLake {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Scree Lake"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Scree Lake"
+   }
+  }
+  coords 2244.831 920.75 6991.665
+ }
+ P_GlacerLake {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Glacer Lake"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Glacer Lake"
+   }
+  }
+  coords 4096.036 1131.818 4978.586
+ }
+}
+GenericEntity Military : "{BC0FB2492AD81F0D}Prefabs/World/Locations/Arland/Urban/Arland_Military_01.et" {
+ coords 4444.792 1201.796 4811.522
+}
+$grp GenericEntity : "{D5E49DB4895F0CF1}Prefabs/World/Locations/Eden/Natural/Moutains_East_pass_01.et" {
+ H_ForkPass {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Fork Pass"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Fork Pass"
+   }
+  }
+  coords 5376.968 1213.264 4561.443
+ }
+ H_GrimPass {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Grim Pass"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Grim Pass"
+   }
+  }
+  coords 2621.779 1089.588 3990.141
+ }
+}
+$grp GenericEntity : "{F181AA789E05280F}Prefabs/World/Locations/Eden/Natural/Entre_Deux_Hill_01.et" {
+ H_LittleFork {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Little Fork"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Little Fork"
+   }
+  }
+  coords 5019.825 1508.445 5286.738
+ }
+ H_BigFork {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Big Fork"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Big Fork"
+   }
+  }
+  coords 5067.762 1605.601 6054.617
+ }
+ H_GallPeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Gall Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Gall Peak"
+   }
+  }
+  coords 5409.391 1789.65 6784.277
+ }
+ H_MouflonPeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Mouflon Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Mouflon Peak"
+   }
+  }
+  coords 5854.041 1546.243 3120.604
+ }
+ H_DeepMountain {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Deep Mountain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Deep Mountain"
+   }
+  }
+  coords 5613.03 1753.998 7601.536
+ }
+ H_DeerMountain {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Deer Mountain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Deer Mountain"
+   }
+  }
+  coords 5549.29 1800 8524.006
+ }
+ H_BarleyPeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Barley Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Barley Peak"
+   }
+  }
+  coords 3307.051 1582.743 5958.735
+ }
+ H_RearScreeMountains {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Rear Scree Mountains"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Rear Scree Mountains"
+   }
+  }
+  coords 3519.93 1679.674 8113.625
+ }
+ H_PoetsPeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Poet's Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Poet's Peak"
+   }
+  }
+  coords 3220.322 1689.913 8725.608
+ }
+ H_SettlersPeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Settler's Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Settler's Peak"
+   }
+  }
+  coords 1464.338 1377.045 3396.673
+ }
+ H_BlueMountain {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Blue Mountain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Blue Mountain"
+   }
+  }
+  coords 5542.574 1377.658 4230.802
+ }
+ H_Tower {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Tower"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Tower"
+   }
+  }
+  coords 3082.058 1511.813 7715.506
+ }
+ H_BarnPeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Barn Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Barn Peak"
+   }
+  }
+  coords 4218.363 1587.833 7324.868
+ }
+ H_ScreeMountains {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Scree Mountains"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Scree Mountains"
+   }
+  }
+  coords 2046.655 1304.12 7638.761
+ }
+ H_BarnPeak2 {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Barn Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Barn Peak"
+   }
+  }
+  coords 4856.034 1427.662 3394.979
+ }
+ H_SteepRidge {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Steep Ridge"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Steep Ridge"
+   }
+  }
+  coords 6716.854 1365.267 4473.836
+ }
+ H_IcePeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Ice Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Ice Peak"
+   }
+  }
+  coords 6241.25 1648.296 7189.794
+ }
+ H_WinterMountain {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Winter Mountain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Winter Mountain"
+   }
+  }
+  coords 6841.401 1594.972 7227.949
+ }
+ H_HoleMountain {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Hole Mountain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Hole Mountain"
+   }
+  }
+  coords 7371.532 1528.26 7513.048
+ }
+ H_BluePeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Blue Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Blue Peak"
+   }
+  }
+  coords 8511.643 1528.047 7502.196
+ }
+ H_BrightMountain {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Bright Mountain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Bright Mountain"
+   }
+  }
+  coords 9387.981 1476.288 2748.403
+ }
+ H_MeadowRidge {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Meadow Ridge"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Meadow Ridge"
+   }
+  }
+  coords 3773.792 1162.3 3660.703
+ }
+ H_GloriousPeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Glorious Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Glorious Peak"
+   }
+  }
+  coords 3373.493 1578.394 5614.83
+ }
+ H_MaroonMountain {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Maroon Mountain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Maroon Mountain"
+   }
+  }
+  coords 1285.585 1284.966 4956.114
+ }
+ H_AlderPeak {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Alder Peak"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Alder Peak"
+   }
+  }
+  coords 599.069 1219.016 6329.323
+ }
+ H_StrongMountain {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Strong Mountain"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Strong Mountain"
+   }
+  }
+  coords 2420.693 1333.578 6490.16
+ }
+ L_GlacierMeadow {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Glacier Meadow"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Glacier Meadow"
+   }
+  }
+  coords 3772.067 889.98 4360.13
+ }
+ L_AncientIcefall {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Ancient Icefall"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Ancient Icefall"
+   }
+  }
+  coords 4023.911 1047.165 4771.317
+ }
+ H_BarnCrest {
+  components {
+   SCR_EditableCommentComponent "{529AB059519FE609}" {
+    m_UIInfo SCR_EditableCommentUIInfo "{5298E609432D192D}" {
+     Name "Barn Crest"
+    }
+   }
+   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+    DisplayName "Barn Crest"
+   }
+  }
+  coords 4248.956 1245.732 2998.808
+ }
+}

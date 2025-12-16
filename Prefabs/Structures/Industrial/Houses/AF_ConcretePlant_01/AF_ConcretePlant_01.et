@@ -1,0 +1,97 @@
+SCR_DestructibleBuildingEntity : "{A92A5F3B79FF56BE}Prefabs/Structures/Industrial/Houses/ConcretePlant_E_01/ConcretePlant_E_01.et" {
+ ID "F0DBA538AC2A0552"
+ coords 9274.246 4.496 1024.327
+ angleY 94.099
+ {
+  $grp SCR_DestructibleBuildingEntity : "{0DB364ED28333396}Prefabs/Structures/Industrial/Containers/Silos/Silo_02/Silo_02_red_yellow.et" {
+   {
+    ID "608427EA64BB2881"
+    coords 1.064 -0.162 -4.305
+    angleY 180
+   }
+   {
+    ID "608427EA64BB2882"
+    coords -2.734 -0.162 -4.366
+    angleY 180
+   }
+  }
+  $grp SCR_DestructibleEntity : "{3848EA33A0EAB8F6}Prefabs/Structures/BuildingParts/Industrial/ConcretePlant_E_01_Wall.et" {
+   {
+    ID "608427EA64B9D512"
+    coords 7.152 -2.212 9.881
+    angleY 180
+   }
+   {
+    ID "608427EA64BA1AEA"
+    coords 4.186 -1.734 9.88
+    angleY 180
+   }
+   {
+    ID "608427EA64BA1AEF"
+    coords 1.188 -0.569 9.876
+    angleY 180
+   }
+   {
+    ID "608427EA64BA29CF"
+    coords -0.45 -0.57 12.443
+    angleY 119.999
+   }
+   {
+    ID "608427EA64BA70F6"
+    coords 2.52 -3.368 17.597
+    angleY 119.999
+   }
+   {
+    ID "608427EA64BA70F7"
+    coords 1.036 -1.625 15.026
+    angleY 119.999
+   }
+   {
+    ID "608427EA64BA7D31"
+    coords -4.982 -2.167 15.011
+    angleY 59.999
+   }
+   {
+    ID "608427EA64BABDEC"
+    coords -6.465 -2.484 17.581
+    angleY 59.999
+   }
+   {
+    ID "608427EA64BABDEF"
+    coords -3.493 -0.57 12.426
+    angleY 59.999
+   }
+   {
+    ID "608427EA64BAFBC1"
+    coords -4.76 -0.57 9.88
+    angleY 0
+   }
+   {
+    ID "608427EA64BB28BA"
+    coords -7.744 -1.902 9.88
+    angleY 0
+   }
+   {
+    ID "608427EA64BB28BB"
+    coords -10.707 -3.237 9.881
+    angleY 0
+   }
+  }
+  $grp GenericEntity : "{47F8D83F71EB2B74}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_addon.et" {
+   {
+    ID "608427D00811821A"
+    coords -6.006 7.061 3.765
+    angleY -90
+   }
+   {
+    ID "608427EA64B9D506"
+    coords 0.282 7.026 -0.194
+    angleY 90
+   }
+  }
+  GenericEntity : "{4F5A962ED65D820C}Prefabs/Structures/BuildingParts/Industrial/ConcretePlant_E_01_SandPile.et" {
+   ID "608427EA64B9D51F"
+   coords -1.954 0.027 12.872
+  }
+ }
+}

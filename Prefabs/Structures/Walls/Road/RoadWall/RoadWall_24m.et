@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "65E92BA0B9D820E2"
+ components {
+  RER_PointsComponent "{65E92BA09805ED55}" {
+   endPosition 0 0 24
+  }
+ }
+ Flags 1048579
+ coords 1188.818 669.219 731.265
+ {
+  SCR_DestructibleBuildingEntity : "{E8C4D8095BADC7E4}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_8m.et" {
+   ID "65E92BA0B9D820E6"
+   coords -2 -11.755 12
+   angleY 90
+   scale 3
+  }
+ }
+}

@@ -1,0 +1,343 @@
+SCR_IndestructibleEnvironmentalEntity : "{019E4E540652B141}Prefabs/Rocks/Granite/GraniteRock_02_Forest.et" {
+ coords 3494.003 805.596 2362.925
+ angleX 5.32
+ angleY -8.809
+ angleZ -36.987
+}
+StaticModelEntity : "{19A3C48FC2665A3F}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_large.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{65E34B796B386C30}" {
+     SourceMaterial "ColorPalette"
+     AssignedMaterial "{E0078B932EB17D28}Common/Materials/default_MatTerrainObj.emat"
+    }
+    MaterialAssignClass "{65E34B796B386C2A}" {
+     SourceMaterial "GravelPile_01"
+     AssignedMaterial "{E0078B932EB17D28}Common/Materials/default_MatTerrainObj.emat"
+    }
+    MaterialAssignClass "{65E34B796B386C2E}" {
+     SourceMaterial "GravelPile_01_Decal"
+     AssignedMaterial "{E0078B932EB17D28}Common/Materials/default_MatTerrainObj.emat"
+    }
+   }
+  }
+ }
+ coords 3607.182 863.228 2431.954
+ angleX -11.916
+ angleY -75.193
+ angleZ -11.835
+ scale 2
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{28B3BD910DA69CD5}Prefabs/Rocks/Granite/Granite_ForestCluster_01.et" {
+ {
+  coords 3506.2 0 2327.551
+  angleX 0.703
+  angleY -0.385
+  angleZ -26.568
+  scale 3
+ }
+ {
+  coords 3528.547 0.533 2329.19
+  angleX 25.983
+  angleY 91.675
+  angleZ -4.89
+  scale 3
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{2BBA69F7F0BCD76E}Prefabs/Rocks/Granite/GraniteRock_01_Forest.et" {
+ {
+  coords 3555.937 833.292 2390.816
+  angleX -12.68
+  angleY 55.221
+ }
+ {
+  coords 3485.539 800.871 2363.583
+  angleZ -31.909
+ }
+}
+$grp StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_straight.et" {
+ {
+  coords 4236.181 1238.388 2988.591
+  angleX 12.981
+  angleY 54.518
+  scale 2
+ }
+ {
+  coords 4232.923 1239.162 3008.139
+  angleX 8.637
+  angleY 103.723
+  angleZ 3.141
+  scale 2
+ }
+ {
+  coords 4247.249 1238.9 2977.885
+  angleX 6.598
+  angleY 29.306
+  angleZ -2.234
+  scale 2
+ }
+ {
+  coords 4225.82 1226.654 2971.749
+  angleX 18.279
+  angleY 58.756
+  angleZ 0.074
+  scale 2
+ }
+ {
+  coords 3279.896 706.511 2413.226
+  angleX 8.962
+  angleY 109.151
+  angleZ -6.425
+  scale 2
+ }
+ {
+  coords 3273.208 707.193 2395.698
+  angleX 8.962
+  angleY 109.151
+  angleZ 1.012
+  scale 2
+ }
+ {
+  coords 3267.647 707.512 2378.227
+  angleX 9.003
+  angleY 99.217
+  angleZ -0.543
+  scale 2
+ }
+ {
+  coords 3284.427 704.586 2422.377
+  angleX 4.365
+  angleY 87.834
+  angleZ -13.263
+  scale 2
+ }
+}
+SCR_DestructibleBuildingEntity : "{40BE566C8F18D8B3}Prefabs/Structures/Cultural/Churches/Church_01/Church_01_white.et" {
+ coords 2902.031 0.093 2352.481
+ angleY 31.006
+}
+SCR_IndestructibleEnvironmentalEntity : "{44E78971B16213FB}Prefabs/Rocks/Granite/Granite_ForestCluster_02.et" {
+ coords 3523.205 0 2319.187
+ angleX -6.758
+ angleY 3.919
+ angleZ -28.917
+ scale 2
+}
+$grp StaticModelEntity : "{528AB2322A646026}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_wave.et" {
+ {
+  coords 3496.727 806.25 2314.906
+  angleX 9.297
+  angleY 81.83
+  scale 2
+ }
+ {
+  coords 3566.521 840.933 2390.524
+  angleX 15.076
+  angleY 71.137
+  angleZ -2.798
+  scale 2
+ }
+ {
+  coords 3494.395 803.58 2287.348
+  angleX 14.156
+  angleY 97.323
+  angleZ 6.419
+  scale 2
+ }
+}
+$grp StaticModelEntity : "{53CF78A46139AA55}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_wave.et" {
+ {
+  coords 4237.722 1227.09 2957.692
+  angleX 16.451
+  angleY 40.072
+  angleZ -3.941
+  scale 2
+ }
+ {
+  coords 3265.199 709.366 2339.897
+  angleX 7.545
+  angleY 96.979
+  angleZ -10.942
+  scale 2
+ }
+}
+StaticModelEntity : "{5C2E29ECFAD48807}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_turnin.et" {
+ coords 4243.663 1242.809 3004.01
+ angleY 105.928
+}
+SCR_IndestructibleEnvironmentalEntity : "{5F799252A82209D2}Prefabs/Rocks/Granite/GraniteSurfaceStone_01_Forest.et" {
+ coords 3479.171 800.067 2358.158
+ angleX -15.316
+ angleY -30.563
+ angleZ -29.351
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{76AF1688C649DC10}Prefabs/Rocks/Granite/Granite_ForestStone_03.et" {
+ {
+  coords 3500.229 -0.001 2298.783
+  angleX 3.639
+  angleY -2.506
+  angleZ -34.588
+ }
+ {
+  coords 3510.905 0 2291.539
+  angleX 35.064
+  angleY 81.072
+  angleZ -2.943
+  scale 2
+ }
+ {
+  coords 3512.479 0 2319.074
+  angleX 1.342
+  angleY -0.776
+  angleZ -30.042
+ }
+ {
+  coords 3486.553 0 2355.382
+  angleX 17.299
+  angleY 136.483
+  angleZ 18.511
+  scale 1.2
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{93335A71CAAC4B7B}Prefabs/Rocks/Granite/Granite_ForestStone_02.et" {
+ {
+  coords 3517.854 0 2304.198
+  angleX 3.999
+  angleY -3.005
+  angleZ -36.975
+ }
+ {
+  coords 3548.812 0.001 2383.682
+  angleX 5.75
+  angleY -1.86
+  angleZ -14.986
+  scale 1.5
+ }
+}
+$grp StaticModelEntity : "{9C7477A3F066F74F}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_straight.et" {
+ {
+  coords 3495.021 807.246 2332.194
+  angleX 11.603
+  angleY 86.693
+  angleZ 4.29
+  scale 2
+ }
+ {
+  coords 3562.874 840.982 2403.263
+  angleX 18.416
+  angleY 77.941
+  angleZ -0.536
+  scale 2
+ }
+ {
+  coords 3558.041 836.971 2438.209
+  angleX 8.851
+  angleY 88.316
+  angleZ -8.043
+  scale 2
+ }
+ {
+  coords 3492.698 800.243 2262.946
+  angleX 7.886
+  angleY 94.888
+  angleZ 6.46
+  scale 2
+ }
+ {
+  coords 3493.582 797.979 2245.193
+  angleX 8.17
+  angleY 84.852
+  angleZ 9.731
+  scale 2
+ }
+ {
+  coords 3511.481 819.324 2383.643
+  angleX 1.631
+  angleY 106.974
+  angleZ 10.12
+  scale 2
+ }
+ {
+  coords 3511.145 797.355 2234.149
+  angleX 16.93
+  angleY -10.304
+  angleZ -8.981
+  scale 2
+ }
+}
+$grp DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
+ {
+  coords 4251.616 0.043 2998.357
+  angleX -83.069
+  angleY 54.805
+  angleZ -90
+  scale 3
+ }
+ {
+  coords 4252.157 0.063 2997.475
+  angleX -83.069
+  angleY 54.805
+  angleZ -79.676
+  scale 3
+ }
+}
+DecalEntity : "{BAA55688399B3545}Prefabs/Decals/Dirt/Decal_Dirt_Patch_01.et" {
+ coords 4244.345 -0.004 2996.839
+ angleX -76.835
+ angleY 90
+ angleZ -90
+ scale 3
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{D9D20C6C33517ED5}Prefabs/Rocks/Granite/GraniteRock_03_Forest.et" {
+ {
+  coords 3499.693 804.557 2300.432
+  angleX 7.826
+  angleY 92.103
+  angleZ 1.242
+  scale 0.75
+ }
+ {
+  coords 3503.716 808.714 2349.303
+  angleX -5.774
+  angleY 123.598
+  angleZ 7.951
+ }
+ {
+  coords 3487.674 802.298 2346.397
+  angleX -9.769
+  angleY 102.023
+  angleZ 2.437
+ }
+}
+$grp StaticModelEntity : "{E87BCD612EEDAC6D}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_turnin.et" {
+ {
+  coords 3512.263 816.08 2361.024
+  angleX 9.808
+  angleY 111.142
+  angleZ 11.869
+  scale 2
+ }
+ {
+  coords 3269.493 708.724 2359.643
+  angleY 92.425
+  angleZ -2.562
+  scale 2
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{FF676E917668C455}Prefabs/Rocks/Granite/Granite_ForestStone_01.et" {
+ {
+  coords 3510.254 0 2302.525
+  angleX 2.903
+  angleY -2.135
+  angleZ -36.347
+  scale 2
+ }
+ {
+  coords 3562.483 -2.472 2378.54
+  angleX 13.87
+  angleY -18.443
+  angleZ -42.348
+  scale 2
+ }
+}

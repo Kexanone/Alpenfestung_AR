@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8CAC0510FE705882}Prefabs/Structures/Signs/Traffic/VergePost/AF_PlasticVergePost_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

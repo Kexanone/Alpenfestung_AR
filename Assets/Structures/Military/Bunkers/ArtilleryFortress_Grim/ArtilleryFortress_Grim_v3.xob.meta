@@ -1,0 +1,39 @@
+MetaFileClass {
+ Name "{E3861BEA1E90E30D}Prefabs/ArtilleryFortress_Grim_v3.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{60604DE4DDD37A3A}" {
+     SourceMaterial "Material_001"
+     AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+    }
+    MaterialAssignClass "{60604DE4DDD37A59}" {
+     SourceMaterial "TerrainMaterial01"
+     AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+    }
+    MaterialAssignClass "{60604DE4DDD37A63}" {
+     SourceMaterial "TerrainMaterial02"
+     AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Enterance {
+    }
+    MeshParam Stairs {
+    }
+    MeshParam Terrain01 {
+    }
+    MeshParam Terrain02 {
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

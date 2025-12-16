@@ -1,0 +1,10 @@
+PrefabGeneratorEntity : "{8A50BD01BB937725}Prefabs/WEGenerators/Roads/VergePosts/PG_StoneVergePost_01.et" {
+ ID "557ECE4AA833169C"
+ m_PrefabNames {
+  "{8CAC0510FE705882}Prefabs/Structures/Signs/Traffic/VergePost/AF_PlasticVergePost_01.et"
+ }
+ m_Weights {
+  1
+ }
+ m_bAlignWithShape 0
+}

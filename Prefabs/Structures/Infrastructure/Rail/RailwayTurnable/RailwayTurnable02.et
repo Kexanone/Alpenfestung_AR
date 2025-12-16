@@ -1,0 +1,61 @@
+GenericEntity {
+ ID "606E45B51904D5FA"
+ components {
+  MeshObject "{606D7C0376EB13AF}" {
+   Object "{AC6CE5A8D508FF6B}Assets/Structures/Infrastructure/Rail/RailwayTurnable/RailwayTurnablePit.xob"
+  }
+  RigidBody "{606D7C0375E7DCF8}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 3348.698 878.1 3975.352
+ {
+  GenericEntity {
+   ID "606E45B51904D5F9"
+   components {
+    DoorComponent "{606D59D9947F21FD}" {
+     DoorAction SCR_DoorUserAction "{606D59C6ADFF993D}" {
+      ParentContextList {
+       "Handle01" "Handle02"
+      }
+     }
+     AngleRange -60
+     OpenTime 7
+     SoundFilename "{22ECEDB98FB13D3A}Sounds/Structures/_ShaderData/Doors/Structures_Door_Metal_Bunker.acp"
+    }
+    MeshObject "{606A7A72496D00E2}" {
+     Object "{ADB9981FF3ABF5E9}Assets/Structures/Infrastructure/Rail/RailwayTurnable/RailwayTurnableBridge.xob"
+    }
+    RigidBody "{606D59D31B8FD76D}" {
+     ResponseIndex "HugeDestructible"
+     ModelGeometry 1
+     Static 1
+     Kinematic 1
+    }
+    ActionsManagerComponent "{606D59D9F126C3A9}" {
+     ActionContexts {
+      UserActionContext "{606D59D9FA5654FD}" {
+       ContextName "Handle01"
+       Position PointInfo "{606D59D9156B7246}" {
+        Offset 2.32 1.07 8.17
+       }
+       Radius 0.65
+      }
+      UserActionContext "{606D59D9644B4D14}" {
+       ContextName "Handle02"
+       Position PointInfo "{606D59D96F60C289}" {
+        Offset -2.32 1.07 -8.17
+       }
+       Radius 0.65
+      }
+     }
+    }
+    RplComponent "{606D59C635E78BB0}" {
+    }
+    Hierarchy "{606D59C645AA82F6}" {
+    }
+   }
+  }
+ }
+}

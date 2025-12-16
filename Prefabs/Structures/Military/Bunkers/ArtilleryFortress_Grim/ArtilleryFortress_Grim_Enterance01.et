@@ -1,0 +1,29 @@
+GenericEntity {
+ ID "606129BA7B58B256"
+ components {
+  MeshObject "{60604DF39A870746}" {
+   Object "{4BCD0AB7340A9991}Prefabs/Fortification.xob"
+  }
+  RigidBody "{60604DF3A7C35040}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ {
+  GenericEntity : "{74A8427A65A5B423}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_E_03/DoorSet_Bunker_E_03_A_R_EXT_COV_B.et" {
+   ID "606129BA7B58B262"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_Door_Bunker_E_A_RIGHT_EXT_02"
+    }
+   }
+   coords -1.239 0.026 0.01
+   angleY 90
+  }
+  EnvironmentProbeEntity : "{900726DB82FD2EAC}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/Probe_AirfieldBunker_E_01.et" {
+   ID "606129BA7B58B268"
+   coords -2.09 1.05 0.129
+   angleY -41.69
+  }
+ }
+}

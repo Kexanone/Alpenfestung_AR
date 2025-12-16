@@ -1,0 +1,47 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{3708432198363A38}Assets/Structures/Infrastructure/Rail/RailwayTunnelPortal/RailwayTunnelPortal.xob"
+   Materials {
+    MaterialAssignClass "{605C74CA5A2DA29E}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{9094E4ED5B9AA34A}Assets/Structures/Infrastructure/Naval/Piers/Data/PierConcrete_01.emat"
+    }
+    MaterialAssignClass "{605C74CA5A2DA14B}" {
+     SourceMaterial "ref"
+     AssignedMaterial "{9094E4ED5B9AA34A}Assets/Structures/Infrastructure/Naval/Piers/Data/PierConcrete_01.emat"
+    }
+    MaterialAssignClass "{605C74CA5A2DA14D}" {
+     SourceMaterial "uv"
+     AssignedMaterial "{A8A7DE7158316A18}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/Data/Concrete_bridge_01_concrete.emat"
+    }
+   }
+  }
+  RplComponent "{50A4E7C9B5728062}" {
+   Enabled 0
+  }
+  Hierarchy "{50B87EFBB2BAB285}" {
+   Enabled 0
+  }
+ }
+ {
+  GenericEntity {
+   ID "60612D7679B6F3A5"
+   components {
+    MeshObject "{60612D767B682A71}" {
+     Object "{24AA631DC0D6CE60}Assets/Structures/Infrastructure/Rail/RailwayTunnelPortal/RailwayTunnelPortal_Terrain.xob"
+    }
+    RigidBody "{60612D77826F77AF}" {
+     ModelGeometry 1
+     Static 1
+    }
+   }
+  }
+  EnvironmentProbeEntity : "{94B6B47CDA125A62}Prefabs/Structures/Core/ProbeEnvCave_base.et" {
+   ID "605D3ADAC2409A5E"
+   coords 0 2.75 12.5
+   VisibleDistance 1000
+  }
+ }
+}

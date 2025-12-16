@@ -1,0 +1,43 @@
+ForestGeneratorEntity : "{BE2A22EBD3A58B49}Prefabs/WEGenerators/Stones/FG_BeachStones_Sparse.et" {
+ ID "52A068E8AB53F453"
+ Flags 1048579
+ coords 2338.031 1092.099 3680.377
+ m_aClusters {
+  ForestGeneratorCircleCluster Stones {
+   m_aObjects {
+    SmallForestGeneratorClusterObject Stone_01 {
+     m_Prefab "{735E970ACBB1B473}Prefabs/Rocks/Granite/Granite_Boulder_01.et"
+    }
+    SmallForestGeneratorClusterObject Stone_02 {
+     m_Prefab "{1F0AA3EA77753B5D}Prefabs/Rocks/Granite/Granite_Boulder_02.et"
+    }
+    SmallForestGeneratorClusterObject Stone_03 {
+     m_Prefab "{926C09375D2DAA4D}PrefabLibrary/Rocks/Granite/GraniteStone_01.et"
+    }
+    SmallForestGeneratorClusterObject Stone_small {
+     m_fMinScale 0.4
+     m_fMaxScale 1.2
+     m_Prefab "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et"
+    }
+   }
+  }
+  ForestGeneratorCircleCluster Stones2 {
+   m_aObjects {
+    SmallForestGeneratorClusterObject Stone_01 {
+     m_Prefab "{102F94404E45E8D6}PrefabLibrary/Rocks/Granite/Granite_Cluster_Large_01.et"
+    }
+    SmallForestGeneratorClusterObject Stone_02 {
+     m_fMinScale 0.3
+     m_fMaxScale 0.6
+     m_Prefab "{6761B2CC21C9C7CD}PrefabLibrary/Rocks/Granite/Granite_Cluster_06.et"
+    }
+    SmallForestGeneratorClusterObject Stone_03 {
+     m_Prefab "{102F94404E45E8D6}PrefabLibrary/Rocks/Granite/Granite_Cluster_Large_01.et"
+    }
+    SmallForestGeneratorClusterObject Stone_small {
+     m_Prefab "{102F94404E45E8D6}PrefabLibrary/Rocks/Granite/Granite_Cluster_Large_01.et"
+    }
+   }
+  }
+ }
+}

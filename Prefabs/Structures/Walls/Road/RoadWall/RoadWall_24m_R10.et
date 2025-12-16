@@ -1,0 +1,11 @@
+GenericEntity : "{07CD6A6895BAE317}Prefabs/Structures/Walls/Crashbarrier/CrashBarrier_01/RoadWall_24m.et" {
+ ID "65E92BA0B9D820E2"
+ components {
+  RER_PointsComponent "{65E92BA09805ED55}" {
+   startPosition 0 0 0.5
+   endPosition 0 0 23.5
+   startRotation 0 5 0
+   endRotation 0 5 0
+  }
+ }
+}

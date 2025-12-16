@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{53B3EAC341E0F1CC}Configs/Workbench/ObjectBrush/OB_GraniteSurfaceCliff_smooth.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

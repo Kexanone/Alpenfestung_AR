@@ -1,0 +1,186 @@
+Turret : "{7C4D1A64D60F2C92}Prefabs/Weapons/Tripods/Tripod_6T5.et" {
+ ID "52D30EFBEBC74642"
+ components {
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -50 50
+   LimitsVert -25 25
+   LimitsHorizProne -20 20
+   LimitsVertProne -8 10
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{51ACFBB1D6C27024}" {
+      Offset -0.0773 -0.9643 -0.6825
+     }
+     SidestepRayZOffset -0.3
+     HeightAdjustmentRayZOffset -0.4
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_Tripod_6T5_PKM"
+    Icon "{C9E7C9C9DE28F3B7}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Turret_MachineGun.edds"
+    m_Image "{EF2E9A7902B8945B}UI/Textures/EditorPreviews/Weapons/Tripods/Tripod_6T5_PKM.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels + {
+     10 21 34
+    }
+    m_aAutoLabels {
+     121 55
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{605F4424B2C76A2F}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{58FE9EDB2128FCFC}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{605F4424B2C76A32}" {
+     m_iParentID -1
+     m_Mesh "{C45CC9C950115B07}Assets/Weapons/Tripods/6T5/Tripod_6T5.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{605F4424B2C76A3F}" {
+     m_iParentID 0
+     m_Mesh "{6225F32E5CAC127C}Assets/Weapons/MachineGuns/PKM/PKM_body.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID "w_weapon_holder_tripod"
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{570EACF4F2F94F1B}" {
+   Attributes SCR_ItemAttributeCollection "{605F4424B2C76A46}" {
+    ItemDisplayName WeaponUIInfo "{605F4424B2C76A43}" {
+     Name "#AR-EditableEntity_Tripod_6T5_PKM"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{605F4424B2C76A41}" {
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{605F4424B2C76A4E}" {
+      CameraPreset Right
+      CameraDistanceToItem 0.85
+      CameraOffset -0.15 0.1 0
+      FOV 40
+      PreviewPrefab "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et"
+     }
+    }
+    m_SlotType SLOT_WEAPONS_STORAGE
+    m_bDraggable 0
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 6000
+   MaxItemSize 15 15 15
+   InitialStorageSlots {
+    InventoryStorageSlot Magazine_1 {
+     Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+    }
+    InventoryStorageSlot Magazine_2 {
+     Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+    }
+    InventoryStorageSlot Magazine_3 {
+     Prefab "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+   "faction affiliation" "USSR"
+  }
+  TurretComponent "{1D3DA71B9107070D}" {
+   components {
+    RHS_2DSightsComponent "{5704FD9D7509AA3A}" {
+     SightsPosition PointInfo "{605F442411F1A2F4}" {
+      PivotID "v_gun_01"
+      Offset -0.4 0 0.6
+      Angles 0 0 0
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{605F442411F1A2F2}" {
+      m_fBaseZoom 2.6
+      m_fInterpolationSpeed 25
+     }
+     SightsPointFront PointInfo "{605F442411F1A2F0}" {
+      PivotID "v_gun_01"
+      Offset -0.4 0 0.6
+     }
+     SightsPointRear PointInfo "{605F442411F1A2FF}" {
+      PivotID "v_gun_01"
+      Offset -0.4 0 0.5
+     }
+     ADSTime 0
+     CameraRecoilAmount 0
+     m_sLayoutResource "{4CE66FA8219D33D7}UI/layouts/Sights/Optic_Default.layout"
+     m_sReticleTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+     m_sReticleGlowTexture "{56F9E68F9BAE6370}UI/layouts/Sights/empty_32.edds"
+     m_bHasIllumination 1
+     m_cReticleTextureIllumination 0.814 0.702 0.213 1
+     m_fMagnification 2.6
+     m_fReticleAngularSize 3.6
+     m_fReticlePortion 0.53711
+     m_fReticleBaseZoom 2.6
+     m_bIsTurretOptic 1
+     m_fObjectiveFov 23
+     m_fObjectiveScale 0.77
+     m_fVignetteScale 0.847
+     m_fRotationScale 0.3
+     m_fVignetteMoveSpeed 2.6
+     m_fMotionBlurScale 0
+     m_fRecoilScaleMax 1
+     m_fRecoilTranslationTarget 0.001
+     m_fRecoilScaleTranslation 1
+     m_sRHSLayoutOverlayResource "{9253C17B72EB3518}UI/layouts/Sights/Optic2S1_Widgets.layout"
+     m_eRadianCalculationMethod SOVIET
+     m_bShowTurretElevationInRadians 1
+     m_bShowTurretAzimuthInRadians 1
+     m_bShowTurretToHullIndicator 1
+     m_bShowVehiclePositionWidgets 1
+     m_bShowFillerWidgets 0
+     m_bShowAmmoName 1
+    }
+   }
+   SignalsSourceAccess SignalsSourceAccessClass "{605F442411F1A2FC}" {
+    signalsSuffix "Turret"
+   }
+   ProvideAimingType MainTurret
+   AimingMaxSpeed 1 0.8
+   AimingSpeedControls 0.1 0.1
+   CameraAdsAttachment PointInfo "{605F442411F1A2FB}" {
+    PivotID "v_gun_01"
+    Offset -0.2 0 0.2
+   }
+   TurretSpeed 10 10
+   TurretAcceleration 30 30
+   TurretDeceleration 110 110
+   TurretInterpolationMaxSpeed 1 1
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "w_weapon_holder_tripod"
+   }
+   WeaponTemplate "{B425BE12331AB569}Prefabs/Weapons/HeavyWeapons/2A18/Weapon_2A18.et"
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimGraph "{9110BB1514E84B97}Assets/Weapons/MachineGuns/workspaces/pkm_tripod.agr"
+   AnimInstance "{5E31DF5D7C33047C}Assets/Weapons/MachineGuns/workspaces/pkm_weapon.asi"
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{9110BB1514E84B97}Assets/Weapons/MachineGuns/workspaces/pkm_tripod.agr"
+    AnimInstance "{F02227E674C0E6E9}Assets/Weapons/MachineGuns/workspaces/pkm_Player_tripod.asi"
+   }
+  }
+ }
+}

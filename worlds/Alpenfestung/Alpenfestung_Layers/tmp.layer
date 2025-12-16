@@ -1,0 +1,16 @@
+GenericEntity {
+ coords 1749.25 875.839 5467.903
+}
+SCR_DestructibleBuildingEntity {
+ components {
+  MeshObject "{60A7195E3E471053}" {
+   Object "{B173429D054D079E}Assets/Structures/Commercial/RevolvingRestaurant/glorious.xob"
+  }
+  RigidBody "{60A7195B33F34EFE}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 3373.493 1574.694 5614.833
+ angleY -95.235
+}

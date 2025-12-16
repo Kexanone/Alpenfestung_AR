@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8530799A1E282D20}Prefabs/Structures/Industrial/Houses/ConcretePlant_E_01/AF_ConcretePlant_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

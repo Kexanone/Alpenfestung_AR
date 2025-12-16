@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{694D9292C048FCF1}Prefabs/Structures/Infrastructure/Rail/New/AF_rails_turnout_R_new.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

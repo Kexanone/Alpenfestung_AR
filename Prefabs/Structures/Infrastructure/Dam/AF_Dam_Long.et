@@ -1,0 +1,50 @@
+SCR_DestructibleBuildingEntity : "{2F4401C40DC853B2}Prefabs/Infrastructure/Dam/Dam ControlTower.et" {
+ ID "60591A2352897179"
+ coords 2255.109 674.406 1666.887
+ {
+  $grp SCR_DestructibleBuildingEntity : "{50D623E0B330B955}Prefabs/Infrastructure/Dam/Dam.et" {
+   {
+    ID "605AEB8400D13D7D"
+    coords -94.002 0 0.001
+    angleY 0
+    {
+     $grp SCR_DestructibleBuildingEntity : "{F7B9B2DD8B512720}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m.et" {
+      {
+       ID "605AEB8400D13D41"
+       coords 18.582 6.417 15.385
+       angleY 0
+       scale 2
+      }
+      {
+       ID "605AEB8400D13D42"
+       coords 2.6 6.417 15.386
+       angleY 0
+       scale 2
+      }
+     }
+    }
+   }
+   {
+    ID "605AEB8400D1C31E"
+    coords 94 0 -0
+    angleY 0
+    {
+     $grp SCR_DestructibleBuildingEntity : "{F7B9B2DD8B512720}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m.et" {
+      {
+       ID "605AEB8400D1C319"
+       coords 2.6 6.417 15.385
+       angleY 0
+       scale 2
+      }
+      {
+       ID "605AEB8400D1C31A"
+       coords 18.582 6.417 15.385
+       angleY 0
+       scale 2
+      }
+     }
+    }
+   }
+  }
+ }
+}

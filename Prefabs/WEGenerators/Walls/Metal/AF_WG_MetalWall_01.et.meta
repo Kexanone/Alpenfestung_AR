@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{39E9CC01875D6A20}Prefabs/WEGenerators/Walls/Metal/AF_WG_MetalWall_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

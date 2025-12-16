@@ -1,0 +1,34 @@
+GenericEntity : "{C6615B95721CB759}Prefabs/Structures/Infrastructure/Rail/Old/RailStack/RailStackPiece.et" {
+ ID "606E45B4B23B8395"
+ coords 5024.684 1056.654 4270.423
+ {
+  GenericEntity : "{C6615B95721CB759}Prefabs/Structures/Infrastructure/Rail/Old/RailStack/RailStackPiece.et" {
+   ID "606E45B452A3987B"
+   coords 0 0.285 0
+   {
+    GenericEntity : "{C6615B95721CB759}Prefabs/Structures/Infrastructure/Rail/Old/RailStack/RailStackPiece.et" {
+     ID "606E45B452A3987A"
+     coords 0 0.285 0
+     {
+      GenericEntity : "{C6615B95721CB759}Prefabs/Structures/Infrastructure/Rail/Old/RailStack/RailStackPiece.et" {
+       ID "606E45B452A20D5E"
+       coords 0 0.285 0
+       {
+        GenericEntity : "{C6615B95721CB759}Prefabs/Structures/Infrastructure/Rail/Old/RailStack/RailStackPiece.et" {
+         ID "606E45B452A20D5C"
+         coords 0 0.285 0
+         {
+          GenericEntity : "{C6615B95721CB759}Prefabs/Structures/Infrastructure/Rail/Old/RailStack/RailStackPiece.et" {
+           ID "606E45B452A2ACD3"
+           coords 0 0.285 0
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

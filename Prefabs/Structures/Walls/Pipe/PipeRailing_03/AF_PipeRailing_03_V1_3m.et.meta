@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C6F9186FB1FD3A56}Prefabs/Structures/Walls/Pipe/PipeRailing_03/AF_PipeRailing_03_V1_3m.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

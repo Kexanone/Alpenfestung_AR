@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{14DA8B118B684F44}worlds/Alpenfestung/.Rivers/60642CCD7E10C773_flow.edds"
+ Configurations {
+  DDSResourceClass PC {
+   Conversion None
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass XBOX_SERIES : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+  DDSResourceClass HEADLESS : PC {
+  }
+  DDSResourceClass PS5 : PC {
+  }
+ }
+}

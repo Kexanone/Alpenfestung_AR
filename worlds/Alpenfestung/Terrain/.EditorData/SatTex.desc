@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "C:/Users/sebas/Documents/My Games/ArmaReforgerWorkbench/addons/Alpenfestung_AR/gfx/satmap_dark.png"
+ sRGBOutput 0
+ RenderRoads 1
+ Interpolation bilinear
+ RoadsAA "8x"
+}

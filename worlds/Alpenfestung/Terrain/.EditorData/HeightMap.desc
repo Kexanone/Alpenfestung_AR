@@ -1,0 +1,7 @@
+HeightMapImportDescClass {
+ FileName "C:/Users/sebas/Documents/My Games/ArmaReforgerWorkbench/addons/Alpenfestung_AR/gfx/satmap_dark.png"
+ Flags 5
+ MinHeight -1000000
+ ResampleMinHeight 452
+ ResampleMaxHeight 1800
+}

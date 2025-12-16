@@ -1,0 +1,41 @@
+MetaFileClass {
+ Name "{49AF33477316D604}Prefabs/Test/Terrain.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{60604DE52402B73E}" {
+     SourceMaterial "TerrainMaterial01"
+     AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+    }
+    MaterialAssignClass "{60604DE52402B757}" {
+     SourceMaterial "TerrainMaterial02"
+     AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Terrain01 {
+    }
+    MeshParam Terrain02 {
+    }
+   }
+   Common TXOCommonClass "{60604C76F140AD90}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{60604C76F140AAEF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{60604C76F140AB05}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{60604C76F140AB43}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{60604C76F140A882}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

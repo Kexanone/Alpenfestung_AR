@@ -1,0 +1,9 @@
+GenericEntity : "{68610D36FF1E1612}Prefabs/Structures/Infrastructure/Rail/New/rails_25_new.et" {
+ ID "5E10F32677BF2BC2"
+ coords 3360.422 882.156 3962.93
+ {
+  GenericEntity : "{E98B956D7F51BAD0}Prefabs/Structures/Infrastructure/Rail/New/rails_v_LE_RB_new.et" {
+   ID "5F3B30187D80676E"
+  }
+ }
+}

@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{3708432198363A38}Assets/Structures/Infrastructure/Rail/RailwayTunnelPortal/RailwayTunnelPortal.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{605F2A7402BD8515}" {
+     SourceMaterial "dummyvolume"
+     AssignedMaterial "{72008B6DBCB21074}Prefabs/Data/dummyvolume.emat"
+    }
+    MaterialAssignClass "{605F2A7B8A68E467}" {
+     SourceMaterial "Concrete_01"
+     AssignedMaterial "{E90DB1261BCF0505}Assets/Structures/Industrial/Containers/Silos/Silo_01/Data/Silo_Concrete_01.emat"
+    }
+    MaterialAssignClass "{605F2A7B8A68E474}" {
+     SourceMaterial "Concrete_01_MLOD"
+     AssignedMaterial "{E90DB1261BCF0505}Assets/Structures/Industrial/Containers/Silos/Silo_01/Data/Silo_Concrete_01.emat"
+    }
+   }
+   VolumeParams {
+    VolumeParam BOXVOL_01 {
+     Lerp 0
+    }
+   }
+   MeshParams {
+    MeshParam RailwayTunnelPortal {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_RailwayTunnelPortal {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_RailwayTunnelPortal_FireGeo {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

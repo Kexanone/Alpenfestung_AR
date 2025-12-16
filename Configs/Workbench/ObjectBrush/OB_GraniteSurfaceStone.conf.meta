@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3672D1E6739F5D12}Configs/Workbench/ObjectBrush/OB_GraniteSurfaceStone.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

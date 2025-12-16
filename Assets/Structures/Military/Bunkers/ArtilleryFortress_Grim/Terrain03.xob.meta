@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{720E5D58BE4A619A}Prefabs/Test/Terrain03.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{60604DE31840B090}" {
+     SourceMaterial "TerrainMaterial01"
+     AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Terrain03 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Terrain03 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{F0733D364338D7E0}Common/Materials/Game/grass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{60604DE31851DBCF}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{60604DE31851D9E1}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{60604DE31851D937}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{60604DE31851D975}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{60604DE31851D6B2}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,62 @@
+MetaFileClass {
+ Name "{4BCD0AB7340A9991}Prefabs/Fortification.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{60604DF45C8D8A1F}" {
+     SourceMaterial "Material_001"
+     AssignedMaterial "{E90DB1261BCF0505}Assets/Structures/Industrial/Containers/Silos/Silo_01/Data/Silo_Concrete_01.emat"
+    }
+    MaterialAssignClass "{60604DF2E82B36AD}" {
+     SourceMaterial "dummyvolume"
+     AssignedMaterial "{72008B6DBCB21074}Prefabs/Data/dummyvolume.emat"
+    }
+   }
+   VolumeParams {
+    VolumeParam BOXVOL_01 {
+     Lerp 0
+    }
+   }
+   MeshParams {
+    MeshParam Enterance {
+    }
+    MeshParam Stairs {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Enterance {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs {
+     LayerPreset "BuildingView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_FireGo {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

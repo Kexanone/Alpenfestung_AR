@@ -1,0 +1,35 @@
+MetaFileClass {
+ Name "{B173429D054D079E}Assets/Structures/Commercial/RevolvingRestaurant/glorious.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{60A719451DF82126}" {
+     SourceMaterial "Material"
+     AssignedMaterial "{E90DB1261BCF0505}Assets/Structures/Industrial/Containers/Silos/Silo_01/Data/Silo_Concrete_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam glorious {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_glorious {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

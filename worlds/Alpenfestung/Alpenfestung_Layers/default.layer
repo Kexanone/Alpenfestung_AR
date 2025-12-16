@@ -1,0 +1,62 @@
+SCR_MapEntity MapEntity : "{21C189074DAB7E90}Prefabs/World/DefaultWorld/MapEntity_Default.et" {
+ coords 3062.214 687.884 2439.701
+ "Map Geometry Data" "{C22AF54E161D50EB}worlds/Alpenfestung/GM_Alpenfestung.topo"
+ "Satellite background image" "{65BB9F264BEA3891}UI/Textures/AF_SatMap.edds"
+}
+DestructionManager DestructionManager {
+ components {
+  RplComponent "{5A20EB91AC631BE6}" {
+   Streamable Disabled
+  }
+ }
+ coords 7833.725 1175.753 6418.464
+ RegionalDestructionManagerPrefab "{6CE5A45F15803631}Prefabs/Systems/Destruction/RegionalDestructionManager.et"
+}
+BasePreloadManager PreloadManager : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
+ coords 3052.121 687.255 2435.392
+}
+MusicManager MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+ coords 3052.089 687.298 2435.413
+}
+GenericEntity AmbientSounds : "{434AFBBE90F2B078}Prefabs/Sounds/Environment/AmbientSounds_Everon.et" {
+ components {
+  SCR_AmbientSoundsComponent "{51A2F42C82EA6A82}" {
+   m_aAmbientSoundsEffect {
+    SCR_LoopedPositionalSounds "{5C5AD10707D5FBFA}" {
+    }
+   }
+  }
+ }
+ coords 0 702.5 0
+}
+GenericEntity : "{649C68D69EFEBC16}Prefabs/Structures/Military/Bunkers/ArtilleryFortress_Grim/ArtilleryFortress_Grim_Enterance01.et" {
+ coords 2104.313 959.3 4548.814
+ angles 0 42 0
+}
+RadioBroadcastManager RadioBroadcastManager : "{66B93BC296E2F977}Prefabs/Systems/Radio/RadioBroadcastManager_Everon.et" {
+ coords 3057.089 688.779 2440.413
+}
+SoundWorld : "{8A8604E158704937}Prefabs/Sounds/SoundWorld/SoundWorld_Eden.et" {
+ coords 0 702.5 0
+ Soundmap "{8A6A4CC74AF59868}worlds/Alpenfestung/GM_Alpenfestung.smap"
+}
+StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+ components {
+  MeshObject "{5272E314F6439B95}" {
+   Materials {
+    MaterialAssignClass "{6644D5C0D3B72556}" {
+     SourceMaterial "Color_palette_02"
+     AssignedMaterial "{E0078B932EB17D28}Common/Materials/default_MatTerrainObj.emat"
+    }
+    MaterialAssignClass "{6644D5C0D3B7254E}" {
+     SourceMaterial "DirtCover_01"
+     AssignedMaterial "{E0078B932EB17D28}Common/Materials/default_MatTerrainObj.emat"
+    }
+   }
+  }
+ }
+ coords 2584.776 0 3600.568
+}
+GameEnvironmentProbeEntity : "{B6B6A21399C5571B}Prefabs/World/DefaultWorld/EnvProbe_Default.et" {
+ coords 3478.604 885.316 4086.094
+}

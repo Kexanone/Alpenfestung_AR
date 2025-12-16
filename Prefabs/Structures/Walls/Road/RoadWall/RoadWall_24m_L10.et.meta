@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B295A9627D04835E}Prefabs/Structures/Walls/Crashbarrier/CrashBarrier_01/RoadWall_24m_-5deg.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

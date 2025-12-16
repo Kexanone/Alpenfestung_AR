@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C2EB16D27DB46F6D}Prefabs/WEGenerators/Roads/VergePosts/AF_PG_StoneVergePost.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

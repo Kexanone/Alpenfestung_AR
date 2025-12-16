@@ -1,0 +1,65 @@
+GenericEntity {
+ ID "606129BA49A27560"
+ components {
+  MeshObject "{60604DE32944A233}" {
+   Object "{9C1A8C49570FBF7A}Prefabs/Test/Terrain01.xob"
+  }
+  RigidBody "{60604DED32C8A87E}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1896 940.875 4494
+ {
+  $grp GenericEntity {
+   {
+    ID "606129BA49A27563"
+    components {
+     MeshObject "{60604DE32B36FB91}" {
+      Object "{75C9A709D8CCDB59}Prefabs/Test/Terrain04.xob"
+     }
+     RigidBody "{60604DED3A4C60EB}" {
+      ModelGeometry 1
+      Static 1
+     }
+    }
+   }
+   {
+    ID "606129BA49A38692"
+    components {
+     MeshObject "{60604DE32884D1F3}" {
+      Object "{050435D04AE88EEA}Prefabs/Test/Terrain02.xob"
+     }
+     RigidBody "{60604DED4041161F}" {
+      ModelGeometry 1
+      Static 1
+     }
+    }
+   }
+   {
+    ID "606129BA49A38693"
+    components {
+     MeshObject "{60604DE32BEBD404}" {
+      Object "{720E5D58BE4A619A}Prefabs/Test/Terrain03.xob"
+     }
+     RigidBody "{60604DED47CCAEE2}" {
+      ModelGeometry 1
+      Static 1
+     }
+    }
+   }
+   {
+    ID "606129BA49A3D97F"
+    components {
+     MeshObject "{60604DE2A241C1C5}" {
+      Object "{E2C75CB0A5647005}Prefabs/Test/Bunker.xob"
+     }
+     RigidBody "{60604DED4D33FA66}" {
+      ModelGeometry 1
+      Static 1
+     }
+    }
+   }
+  }
+ }
+}

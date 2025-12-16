@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{851CD28BE84DCCB7}PrefabLibrary/Generators/Water/River/AF_R_River_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

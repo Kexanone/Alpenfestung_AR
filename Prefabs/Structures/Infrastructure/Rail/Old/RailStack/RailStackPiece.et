@@ -1,0 +1,12 @@
+GenericEntity {
+ ID "606E45B4B23B8395"
+ components {
+  MeshObject "{60690D734F55A583}" {
+   Object "{D856645D2207F917}Assets/Structures/Infrastructure/Rail/RailStackPiece/RailStackPiece.xob"
+  }
+  RigidBody "{60690D521129E691}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

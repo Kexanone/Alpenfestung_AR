@@ -1,0 +1,8 @@
+ForestGeneratorEntity : "{1C9113FCDB4E1462}Prefabs/WEGenerators/Brushland/AF_FG_Brushland_Salix_Dense.et" {
+ ID "608427F833570602"
+ m_aLevels {
+  ForestGeneratorBottomLevel Salix {
+   m_fDensity 50
+  }
+ }
+}

@@ -1,0 +1,24 @@
+WallGeneratorEntity : "{BA69BFB79ED70D09}Prefabs/WEGenerators/Walls/Pipe/WG_PipeRailing_03_V1.et" {
+ ID "5494AD0E137DDF74"
+ FirstObject "{3B4BDAC218887868}Prefabs/Structures/Walls/Pipe/PipeRailing_03/AF_PipeRailing_03_V1_Start.et"
+ LastObject "{92C7FF9E245754EA}Prefabs/Structures/Walls/Pipe/PipeRailing_03/AF_PipeRailing_03_V1_End.et"
+ m_aWallGroups {
+  WallLengthGroup "{5494AD0C4BAFBF1B}" {
+   m_aWallPrefabs {
+    WallWeightPair "{5494AD0C4635E258}" {
+     m_sWallAsset "{E0F8B27EA634D9E3}Prefabs/Structures/Walls/Pipe/PipeRailing_03/AF_PipeRailing_03_V1_6m_A.et"
+    }
+    WallWeightPair "{5494AD0DB0385133}" {
+     m_sWallAsset "{E0F8B27EA634D9E3}Prefabs/Structures/Walls/Pipe/PipeRailing_03/AF_PipeRailing_03_V1_6m_A.et"
+    }
+   }
+  }
+  WallLengthGroup "{5494AD0C44948997}" {
+   m_aWallPrefabs {
+    WallWeightPair "{5494AD0DAC503285}" {
+     m_sWallAsset "{C6F9186FB1FD3A56}Prefabs/Structures/Walls/Pipe/PipeRailing_03/AF_PipeRailing_03_V1_3m.et"
+    }
+   }
+  }
+ }
+}

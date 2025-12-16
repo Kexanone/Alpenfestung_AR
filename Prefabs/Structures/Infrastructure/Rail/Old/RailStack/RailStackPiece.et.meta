@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C6615B95721CB759}Prefabs/Structures/Infrastructure/Rail/Old/RailStack/RailStackPiece.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

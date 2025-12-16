@@ -1,0 +1,11 @@
+GenericEntity {
+ ID "65ECB01CB968D838"
+ Flags 1048579
+ {
+  SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
+   ID "65ECB01CB968D822"
+   coords 0 0 -9
+   angleX -90
+  }
+ }
+}

@@ -1,0 +1,49 @@
+SCR_DestructibleBuildingEntity : "{D15C35F865541979}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide_PillarBig.et" {
+ ID "52228C619E0CA85A"
+ coords 4670.081 1027.467 4415
+ angleY -82.355
+ {
+  $grp DecalEntity : "{D2DE0352ED00F315}Prefabs/Decals/Infrastructure/Decal_DrainChannel_01.et" {
+   {
+    ID "5F3968EC4CC50DC4"
+    coords -0.226 0.063 1.712
+    angleX -90
+    angleY -47.645
+    angleZ 137.622
+    scale 0.468
+    {
+     DecalEntity : "{D2DE0352ED00F315}Prefabs/Decals/Infrastructure/Decal_DrainChannel_01.et" {
+      ID "5F3968EC4CC5CF24"
+      coords 7.26 -0.003 0
+      scale 1
+     }
+    }
+   }
+   {
+    ID "5F3968EC4CC5CF20"
+    coords 26.167 0.002 1.723
+    angleX -90
+    angleY -47.645
+    angleZ 137.622
+    scale 0.468
+    {
+     DecalEntity : "{D2DE0352ED00F315}Prefabs/Decals/Infrastructure/Decal_DrainChannel_01.et" {
+      ID "5F3968EC4CC46011"
+      coords 7.346 0 0
+      scale 1
+     }
+    }
+   }
+  }
+  $grp SCR_DestructibleBuildingEntity : "{FF4D386515F942C0}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar.et" {
+   {
+    ID "5F3968EC4CC4601D"
+    coords 3.894 -7.61 0.142
+   }
+   {
+    ID "5F3968EC4CC4601E"
+    coords 24.015 -7.61 0.141
+   }
+  }
+ }
+}

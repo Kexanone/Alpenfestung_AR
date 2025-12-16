@@ -1,0 +1,211 @@
+PolylineShapeEntity {
+ coords 5267.022 1328.757 4752.771
+ Points {
+  ShapePoint "{60561B5DF0A3339D}" {
+   Position -5.189 0.331 -5.326
+  }
+  ShapePoint "{60561B5DF0A3C30C}" {
+   Position -10.485 0.649 -10.591
+  }
+  ShapePoint "{60561B5D2759E954}" {
+   Position -0.583 0.738 -19.29
+  }
+  ShapePoint "{60561B5D22196267}" {
+   Position 9.998 1.217 -7.084
+  }
+  ShapePoint "{60561B5D2A307C10}" {
+   Position 0.652 0.634 0.372
+  }
+  ShapePoint "{60561B5D5EF740FA}" {
+   Position -4.606 0.649 -4.642
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  WallGeneratorEntity : "{68979CD5D064CF8C}PrefabLibrary/Generators/Walls/Net/WG_NetFence_04.et" {
+   Flags 1048579
+   coords 0 0 0
+   {
+    SCR_DestructibleEntity : "{070A8554855B43A6}PrefabLibrary/Walls/Net/NetFence_04_D.et" {
+     coords 4.291 0.97 -12.776
+     angleY -44.92
+    }
+    $grp SCR_DestructibleEntity : "{2591F1D52FD5DC65}PrefabLibrary/Walls/Net/NetFence_04_8m.et" {
+     {
+      coords -9.429 0.586 -9.541
+      angleY 47.777
+     }
+     {
+      coords -1.371 0.725 -18.421
+      angleY -44.92
+     }
+     {
+      coords 9.265 1.185 -7.815
+      angleY -136.453
+     }
+    }
+    SCR_DestructibleEntity : "{3C2E83667F3B45E3}PrefabLibrary/Walls/Net/NetFence_04_Pole.et" {
+     coords -3.693 0.646 -3.748
+     angleY -224.391
+    }
+    $grp SCR_DestructibleEntity : "{B4C746BF99B922B0}PrefabLibrary/Walls/Net/NetFence_04_2m.et" {
+     {
+      coords -8.018 0.501 -8.139
+      angleY -224.83
+     }
+     {
+      coords 7.856 1.124 -9.22
+      angleY -44.92
+     }
+     {
+      coords -2.271 0.64 -2.355
+      angleY -224.391
+     }
+    }
+    $grp SCR_DestructibleEntity : "{C40AD4660B9D7703}PrefabLibrary/Walls/Net/NetFence_04_4m.et" {
+     {
+      coords -5.189 0.331 -5.326
+      angleY -224.83
+     }
+     {
+      coords -4.054 0.678 -15.464
+      angleY 47.777
+     }
+     {
+      coords 3.474 0.814 -2.31
+      angleY -136.453
+     }
+     {
+      coords 0.583 0.629 0.438
+      angleY -224.391
+     }
+    }
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{2F4401C40DC853B2}Prefabs/Infrastructure/Dam/Dam ControlTower.et" {
+ coords 2157.308 33.216 4521.799
+ angleY -138.546
+ {
+  $grp StaticModelEntity : "{3BED3B935D01C9DB}Prefabs/Structures/Infrastructure/Culverts/Culvert_01/Culvert_01_small.et" {
+   {
+    coords 10.638 -37.837 -18.289
+    angleY 180
+    scale 2
+   }
+   {
+    coords 2.638 -37.837 -18.289
+    angleY 180
+    scale 2
+   }
+   {
+    coords 18.637 -37.837 -18.289
+    angleY 180
+    scale 2
+   }
+  }
+  SCR_DestructibleBuildingEntity : "{50D623E0B330B955}Prefabs/Infrastructure/Dam/Dam.et" {
+   coords 20.977 -23.755 -15.592
+   angleX -66.678
+   angleY 0
+   angleZ -180
+  }
+ }
+}
+GenericEntity : "{30479D1CDF8091B3}Prefabs/Props/Forest/ForestBench_01/ForestBench_01_base.et" {
+ coords 4251.645 1246.194 2997.875
+ angleY 61.872
+}
+GenericEntity : "{34B08027DBDE322A}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_01_Short_LEFT_EXT_ST_B.et" {
+ coords 5261.873 1329.473 4747.49
+ angleY -47.147
+}
+$grp SCR_DestructibleBuildingEntity : "{39FC44E47347DF5D}Prefabs/Structures/Services/Hotels/MountainHotel_01/MountainHotel_01_green.et" {
+ {
+  coords 7119.087 1.067 5738.767
+  angleY 24.542
+  FalloffStartWidth 15.4
+  FalloffWidth 26.6
+ }
+ {
+  coords 2247.789 0.519 4486.375
+  angleY -15.3
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{50D623E0B330B955}Prefabs/Infrastructure/Dam/Dam.et" {
+ {
+  coords 2464.964 942.287 4597.123
+  angleY 157.253
+  {
+   $grp SCR_DestructibleBuildingEntity : "{F7B9B2DD8B512720}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m.et" {
+    {
+     coords 18.582 6.417 15.386
+     angleY 0
+     scale 2
+    }
+    {
+     coords 2.602 6.417 15.387
+     angleY 0
+     scale 2
+    }
+   }
+  }
+ }
+ {
+  coords 2378.274 942.287 4560.776
+  angleY 157.253
+  {
+   $grp SCR_DestructibleBuildingEntity : "{F7B9B2DD8B512720}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m.et" {
+    {
+     coords 19.109 6.417 15.386
+     angleY 0
+     scale 2
+    }
+    {
+     coords 3.127 6.417 15.387
+     angleY 0
+     scale 2
+    }
+   }
+  }
+ }
+ {
+  coords 2701.534 1065.428 3861.837
+  angleY -105.879
+ }
+}
+StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+ coords 2202.234 975.593 4459.031
+ angleY -43.51
+}
+StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
+ coords 5267.745 1329.438 4744.344
+ angleY -140
+ {
+  SCR_DestructibleBuildingEntity : "{A42182DF49D50A3B}Prefabs/Structures/Industrial/Houses/PortableCabin_E_02/PortableCabin_E_02.et" {
+   coords 1.879 -0.375 5.154
+   angleY 90
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{A872984332B21489}Prefabs/Structures/Infrastructure/Dam/AF_Dam_Long.et" {
+ {
+  coords 1902.66 19.666 5487.772
+  angleY 151.535
+ }
+ {
+  coords 1779.265 -1.175 6693.313
+  angleY 59.619
+ }
+}
+$grp SCR_DestructibleEntity : "{FC1D5084E7AE6181}Prefabs/Structures/Cultural/Statues/SummitCross_01.et" {
+ {
+  coords 4244.448 0 2996.691
+  angleY 161.537
+ }
+ {
+  coords 4856.208 0 3395.441
+  angleY 109.96
+ }
+}
