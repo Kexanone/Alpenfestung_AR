@@ -1,2 +1,3 @@
 *.rdb
-UI/*.png
+UI/**/*.png
+Terrains/**/*.png
